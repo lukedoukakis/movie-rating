@@ -1,0 +1,34 @@
+public class Movie
+{
+	
+	private String title;
+        private char category;
+	
+	
+	//constructor
+	public Movie(string ttl, chat cat)
+	{
+		title = ttl;
+		category = cat;
+	}
+	//getters and setters
+	
+	public String getTitle()
+	{
+		return title;
+	}
+	public char getCategory()
+	{
+		return category;
+	}
+	
+	public void setTitle(String ttl)
+	{
+		title = ttl;
+	}
+	public void setCategory(char cat)
+	{
+		category = cat;
+	}
+
+}
