@@ -24,7 +24,7 @@ public class Viewer {
 	}
 	
 	public void setName(String nm){
-		nm=name;
+		this.name=name;
 	}
 	
 	//--------------------------
