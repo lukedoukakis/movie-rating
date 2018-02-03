@@ -1,11 +1,11 @@
 public class Movie
 {
 	
-	private string title;
+	private String title;
 	private char category;
 	
 	//constructor
-	public Movie(string ttl, chat cat)
+	public Movie(String ttl, char cat)
 	{
 		title = ttl;
 		category = cat;
@@ -37,8 +37,8 @@ public class Movie
 	public String toString()
 	{
 		//String representing the movie
-		String str = "Movie Title: " + title +
-			     "(" + category + ")";
+		String str = title +
+			     " (" + category + ")";
 		
 		//Return the string
 		return str;
